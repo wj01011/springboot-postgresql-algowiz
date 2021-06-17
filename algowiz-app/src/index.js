@@ -1,9 +1,16 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+// Global CSS styles
+import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/**
+ * This is the Root entry point of the app. Don't touch this...
+ * Important code is located in App.js 
+ */
 ReactDOM.render(
   <React.StrictMode>
     <App />
